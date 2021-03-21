@@ -71,6 +71,16 @@ a:active {
       color:#eabf9f;
 }
 
+.limit {
+  border-style: none;
+  border-top-style: solid;
+  border-color: white;
+  float:left;
+  padding: 5px;
+  border-width: 5px;
+  width: 100%;
+}
+
 /**CLASS SELECTORS**/
 .menu {
   list-style-type: none;
