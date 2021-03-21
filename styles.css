@@ -53,6 +53,16 @@ footer {
   font-family: Segoe UI;
 }
 
+a {
+  color: #b68973;
+
+}
+
+a a:hover {
+  color: white;
+
+}
+
 /**CLASS SELECTORS**/
 .menu {
   list-style-type: none;
