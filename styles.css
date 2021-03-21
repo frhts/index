@@ -53,14 +53,22 @@ footer {
   font-family: Segoe UI;
 }
 
-a {
+
+a:link {
   color: #b68973;
+}
+
+a:visited {
+  color:  #b68973;
+}
+
+a:hover {
+    color:#eabf9f;
 
 }
 
-a a:hover {
-  color: white;
-
+a:active {
+      color:#eabf9f;
 }
 
 /**CLASS SELECTORS**/
