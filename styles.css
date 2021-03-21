@@ -54,5 +54,26 @@ footer {
 }
 
 /**CLASS SELECTORS**/
+.menu {
+  list-style-type: none;
+ padding: 0;
+ margin: 0;
+ display: inline-flex;
+ overflow: hidden;
+ float: right;
+color: #eabf9f;
+text-align: center;
+text-decoration: none;
+}
 
+.menu a {
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.menu a:hover {
+  color: #b68973;
+  font-style: italic;
+}
 /**ID SELECTORS**/
