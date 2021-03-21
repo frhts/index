@@ -14,6 +14,16 @@ hr {
   width: 10%
 }
 
+.limit {
+  border-style: none;
+  border-top-style: solid;
+  border-color: white;
+  float:left;
+  padding: 5px;
+  border-width: 5px;
+  width: 100%;
+}
+
 img {
   height: 150px;
 }
@@ -32,6 +42,8 @@ h4 {
   color: #b68973;
   font-family: Segoe UI Light;
   background-color: white;
+  letter-spacing: 3px;
+  padding-left: 7px;
 }
 
 p {
@@ -43,17 +55,6 @@ ul {
   color: #1e212d;
   font-family: Segoe UI;
 }
-
-table {
-  color: #1e212d;
-  font-family: Segoe UI;
-}
-
-footer {
-  color: #1e212d;
-  font-family: Segoe UI;
-}
-
 
 a:link {
   color: #b68973;
@@ -71,15 +72,14 @@ a:hover {
 a:active {
       color:#eabf9f;
 }
+table {
+  color: #1e212d;
+  font-family: Segoe UI;
+}
 
-.limit {
-  border-style: none;
-  border-top-style: solid;
-  border-color: white;
-  float:left;
-  padding: 5px;
-  border-width: 5px;
-  width: 100%;
+footer {
+  color: #1e212d;
+  font-family: Segoe UI;
 }
 
 /**CLASS SELECTORS**/
@@ -110,4 +110,5 @@ text-decoration: none;
   margin:0 auto;
   width:960px;
 }
+
 /**ID SELECTORS**/
