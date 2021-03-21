@@ -104,4 +104,9 @@ text-decoration: none;
   color: #eabf9f;
   font-style: italic;
 }
+
+.container {
+  margin:0 auto;
+  width:960px;
+}
 /**ID SELECTORS**/
